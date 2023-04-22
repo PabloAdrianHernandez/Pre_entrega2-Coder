@@ -25,7 +25,6 @@ body{
     "main main"
     "section section"
     "footer footer";
-
 }
 
 /* ----------Header, general a todas las páginas---------- */
@@ -34,7 +33,6 @@ body{
     grid-area: header;
     background-color: #ffc8dd;
     border-bottom: solid 8px #bde0fe;
-    
 }
 
 .header_general ul{
@@ -42,7 +40,6 @@ body{
     flex-direction: row;
     justify-content: space-around;
     font-size: 200%;
-    
 }
 
 .header_general ul li{
@@ -80,7 +77,6 @@ body{
 
 .section_index{
     grid-area: section;
-    
 }
 
 .parrafo_1{
@@ -90,7 +86,6 @@ body{
     font-weight: 400;
     background-color: #bde0fe;
     padding: 20px 10px;
-
 }
 
 .parrafo_2{
@@ -100,7 +95,6 @@ body{
     font-weight: 400;
     background-color: #ffc8dd;
     padding: 20px 10px;
-
 }
 
 /* ----------Footer, general a todas las páginas---------- */
@@ -108,7 +102,6 @@ body{
 .footer_general{
     grid-area: footer;
     background-color: #bde0fe;
-    
 }
 
 .footer_general ul{
@@ -116,7 +109,6 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .footer_general ul li{
@@ -150,7 +142,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
- 
 }
 
 .prod_02{
@@ -207,7 +198,6 @@ body{
 .contenedor_productos p{
     font-size: 160%;
     text-align: center;
-    
 }
 
 /* ----------Comprar---------- */
@@ -219,39 +209,26 @@ body{
     font-weight: 400;
     background-color: white;
     padding: 20px 10px;
-
 }
 
 .lista_comprar{
-    list-style-image: url(../images/icono_estrella.png);
+    list-style-image: url(../images/icono_estrella3.png);
     font-size: 235%;
     text-align: justify;
     background-color: white;
-    margin: 1% 15%;
-
+    margin: 3% 15%;
 }
 
 .lista_comprar li{
     padding: 1% 1%;
 }
 
-.encabezado_medios{
-    display: block;
-    text-align: center;
-    font-size: 250%;
-    font-weight: 400;
-    background-color: white;
-    padding: 20px 10px;
-
-}
-
 .lista_medios{
-    list-style-image: url(../images/icono_estrella2.png);
-    font-size: 210%;
-    text-align: left;
+    list-style-image: url(../images/pago2.png);
+    font-size: 235%;
+    text-align: justify;
     background-color: white;
-    margin: 1% 15%;
-
+    margin: 3% 15%;
 }
 
 .lista_medios li{
@@ -259,11 +236,11 @@ body{
 }
 
 .condicion_cambio{
-    list-style-image: url(../images/cambio.png);
-    font-size: 210%;
-    text-align: left;
+    list-style-image: url(../images/cambio2.png);
+    font-size: 235%;
+    text-align: justify;
     background-color: white;
-    margin: 1% 15%;
+    margin: 3% 15%;
 }
 
 .condicion_cambio li{
@@ -285,8 +262,13 @@ body{
     font-size: 20px;
     text-align: center;
     background-color: white;
-    padding: 20px 5px;
+    padding: 40px 5px;
 }
+
+.form_contacto div {
+    padding: 10px;
+}
+
 
 
 
@@ -303,7 +285,6 @@ body{
         "main"
         "section"
         "footer";
-
     }
 
     .header_general ul{
@@ -315,12 +296,10 @@ body{
     .main_index{
         flex-wrap: wrap;
         padding: 2px;
-                    
     }
 
     .main_index img{
         width: 60%;
-
     }
 
     .main_index p{
@@ -350,11 +329,25 @@ body{
     }
 
     .contenedor_productos p{
-        font-size: 120%;
+        font-size: 130%;
+    }
+
+    /* ----Comprar---- */
+
+    .encabezado_comprar{
+        font-size: 230%;
     }
 
     .lista_comprar{
-        font-size: 200%;
+        font-size: 190%;
+    }
+
+    .lista_medios{
+        font-size: 190%;
+    }
+
+    .condicion_cambio{
+        font-size: 190%;
     }
 
     /* ----Nosotros---- */
